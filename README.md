@@ -80,6 +80,7 @@ Sample Response:
 ---
 
 🔧 Features Implemented
+
 Pokémon data lookup:
   Base stats (HP, Attack, etc.)
   Types
@@ -145,13 +146,7 @@ Uvicorn
     http://127.0.0.1:8000/docs
 
   
-  🧪 Test Examples
-    Try GET /pokemon/pikachu
-    Try POST /battle with:
-       {
-          "pokemon1": "pikachu",
-          "pokemon2": "charmander"
-       }
+  
 ---
 <img width="1500" height="800" alt="image" src="https://github.com/user-attachments/assets/04576d58-c921-48b4-a49b-4e0ca0b7b641" />
 <img width="1500" height="800" alt="image" src="https://github.com/user-attachments/assets/afd155f8-233b-4895-b85a-433bb6c9f51a" />
@@ -159,6 +154,7 @@ Uvicorn
 <img width="1500" height="800" alt="image" src="https://github.com/user-attachments/assets/c4ce5966-8e45-46ab-ba0f-8d48ef576090" />
 <img width="1500" height="800" alt="image" src="https://github.com/user-attachments/assets/9c296160-6bff-4162-bdb5-f77abcd76b01" />
 <img width="1500" height="800" alt="image" src="https://github.com/user-attachments/assets/723a5da1-f358-4e8d-887a-b3333c5377e7" />
+
 
 
 
