@@ -132,6 +132,16 @@ Uvicorn
        }
 
 <img width="1500" height="800" alt="image" src="https://github.com/user-attachments/assets/04576d58-c921-48b4-a49b-4e0ca0b7b641" />
+<img width="1500" height="800" alt="image" src="https://github.com/user-attachments/assets/afd155f8-233b-4895-b85a-433bb6c9f51a" />
+<img width="1702" height="976" alt="image" src="https://github.com/user-attachments/assets/d4d0a0f2-83eb-4399-a33d-4acae987b5fd" />
+<img width="1680" height="976" alt="image" src="https://github.com/user-attachments/assets/c4ce5966-8e45-46ab-ba0f-8d48ef576090" />
+<img width="1692" height="977" alt="image" src="https://github.com/user-attachments/assets/9c296160-6bff-4162-bdb5-f77abcd76b01" />
+<img width="1690" height="987" alt="image" src="https://github.com/user-attachments/assets/723a5da1-f358-4e8d-887a-b3333c5377e7" />
+
+
+
+
+
 
 
 
