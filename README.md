@@ -31,7 +31,7 @@ This project implements an MCP (Model Context Protocol) server with two main cap
     uvicorn main:app --reload
 
 
-
+---
 
 🌐 API Endpoints
 1. GET /pokemon/{name}
@@ -77,7 +77,7 @@ Sample Response:
   ]
 }
 
-
+---
 
 🔧 Features Implemented
 Pokémon data lookup:
@@ -96,25 +96,25 @@ Battle Simulation:
   Winner determination
 
 
-
+---
 📦 Requirements
 Python 3.8+
 FastAPI
 Uvicorn
 
 
-
+---
 📘 About MCP
   The Model Context Protocol (MCP) allows this server to act as a bridge between LLMs and Pokémon data/simulation tools, enabling contextual interaction through structured resources and tools.
   More info: https://modelcontextprotocol.io/introduction
 
-
+---
 
 ✅ How LLMs Can Use This
   Query /pokemon/{name} to retrieve stats, abilities, moves, and evolution data.
   Use /battle to simulate a turn-based battle between any two Pokémon and get the winner and full battle log.
 
-
+---
 
 🖥️ How to Run This Project (Step-by-Step)
 
@@ -152,13 +152,14 @@ Uvicorn
           "pokemon1": "pikachu",
           "pokemon2": "charmander"
        }
-
+---
 <img width="1500" height="800" alt="image" src="https://github.com/user-attachments/assets/04576d58-c921-48b4-a49b-4e0ca0b7b641" />
 <img width="1500" height="800" alt="image" src="https://github.com/user-attachments/assets/afd155f8-233b-4895-b85a-433bb6c9f51a" />
 <img width="1500" height="800" alt="image" src="https://github.com/user-attachments/assets/d4d0a0f2-83eb-4399-a33d-4acae987b5fd" />
 <img width="1500" height="800" alt="image" src="https://github.com/user-attachments/assets/c4ce5966-8e45-46ab-ba0f-8d48ef576090" />
 <img width="1500" height="800" alt="image" src="https://github.com/user-attachments/assets/9c296160-6bff-4162-bdb5-f77abcd76b01" />
 <img width="1500" height="800" alt="image" src="https://github.com/user-attachments/assets/723a5da1-f358-4e8d-887a-b3333c5377e7" />
+
 
 
 
