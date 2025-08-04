@@ -27,7 +27,10 @@ This project implements an MCP (Model Context Protocol) server with two main cap
    ```bash
    pip install -r requirements.txt
 3. Run the FastAPI server using Uvicorn:
+
     uvicorn main:app --reload
+
+
 
 
 🌐 API Endpoints
@@ -52,6 +55,7 @@ Sample Response:
 }
 
 
+
 2. POST /battle
 Description: Simulates a turn-based battle between two Pokémon.
 Request Body:
@@ -74,6 +78,7 @@ Sample Response:
 }
 
 
+
 🔧 Features Implemented
 Pokémon data lookup:
   Base stats (HP, Attack, etc.)
@@ -91,22 +96,30 @@ Battle Simulation:
   Winner determination
 
 
+
 📦 Requirements
 Python 3.8+
 FastAPI
 Uvicorn
 
 
+
 📘 About MCP
   The Model Context Protocol (MCP) allows this server to act as a bridge between LLMs and Pokémon data/simulation tools, enabling contextual interaction through structured resources and tools.
   More info: https://modelcontextprotocol.io/introduction
+
+
 
 ✅ How LLMs Can Use This
   Query /pokemon/{name} to retrieve stats, abilities, moves, and evolution data.
   Use /battle to simulate a turn-based battle between any two Pokémon and get the winner and full battle log.
 
+
+
 🖥️ How to Run This Project (Step-by-Step)
+
   Open VS Code or any code editor of your choice.
+
 
   Open the project folder that contains:
     main.py
@@ -115,17 +128,22 @@ Uvicorn
     requirements.txt
     README.md
 
+
   Open the Terminal in VS Code:
     From the menu: Terminal > New Terminal
+
 
   Install dependencies:
     pip install -r requirements.txt
 
+
   Start the server:
     uvicorn main:app --reload
+
   
   Once the server starts, open your browser and go to:
     http://127.0.0.1:8000/docs
+
   
   🧪 Test Examples
     Try GET /pokemon/pikachu
@@ -141,6 +159,7 @@ Uvicorn
 <img width="1500" height="800" alt="image" src="https://github.com/user-attachments/assets/c4ce5966-8e45-46ab-ba0f-8d48ef576090" />
 <img width="1500" height="800" alt="image" src="https://github.com/user-attachments/assets/9c296160-6bff-4162-bdb5-f77abcd76b01" />
 <img width="1500" height="800" alt="image" src="https://github.com/user-attachments/assets/723a5da1-f358-4e8d-887a-b3333c5377e7" />
+
 
 
 
