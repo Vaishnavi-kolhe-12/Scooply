@@ -100,3 +100,35 @@ Uvicorn
 ✅ How LLMs Can Use This
   Query /pokemon/{name} to retrieve stats, abilities, moves, and evolution data.
   Use /battle to simulate a turn-based battle between any two Pokémon and get the winner and full battle log.
+
+🖥️ How to Run This Project (Step-by-Step)
+  Open VS Code or any code editor of your choice.
+
+  Open the project folder that contains:
+    main.py
+    pokemon_data.py
+    battle.py
+    requirements.txt
+    README.md
+
+  Open the Terminal in VS Code:
+    From the menu: Terminal > New Terminal
+
+  Install dependencies:
+    pip install -r requirements.txt
+
+  Start the server:
+    uvicorn main:app --reload
+  
+  Once the server starts, open your browser and go to:
+    http://127.0.0.1:8000/docs
+  
+  🧪 Test Examples
+    Try GET /pokemon/pikachu
+    Try POST /battle with:
+       {
+          "pokemon1": "pikachu",
+          "pokemon2": "charmander"
+       }
+
+![alt text](image.png)
