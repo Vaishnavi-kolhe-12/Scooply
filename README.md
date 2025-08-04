@@ -131,4 +131,6 @@ Uvicorn
           "pokemon2": "charmander"
        }
 
-![alt text](image.png)
+<img width="1823" height="945" alt="image" src="https://github.com/user-attachments/assets/04576d58-c921-48b4-a49b-4e0ca0b7b641" />
+
+
